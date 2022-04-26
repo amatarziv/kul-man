@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    height: 120px;
+    width: 1200px;
+}
+.hed{
+    background-color: beige;
+
+}
