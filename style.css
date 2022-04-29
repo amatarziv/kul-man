@@ -1,14 +1,26 @@
 body{
     background-color: aquamarine;
 }
+a{
+    text-decoration: none;
+}
+
 .header{
     display:flex;
     flex-direction: row;
     height: 120px;
     width: 1200px;
-    background-color:#0686EB;
 }
 .hed{
     background-color: beige;
 
+}
+.tabs{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input{
+    display:flex;
+    justify-content:space-around;
 }
