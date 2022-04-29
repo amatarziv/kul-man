@@ -5,14 +5,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kul'man</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <div class="header">
-    <div class="hed"><h1>Начало положено</h1></div>
-    <div class="hed">Wood</div>
+    <header id="header">
+
+    </header>
+
+    <section class="container w-container">
+        <ul class="tabs" id="navigation">
+            <li>
+                <a href="" class="link">
+                    <h4>Дерево</h4>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link" aria-disabled="false">
+                    <h4>Бетон</h4>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link">
+                    <h4>металл</h4>
+                </a>
+            </li>
+            <li>
+                <a href="" class="link">
+                    <h4>Фундаменты</h4>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <div class="inputMain">
+        <fieldset>
+            <legend>Исходные данные</legend>
+            <p><label for="">Древесина (пиломатериалы):</label></p>
+            <p>
+            <label for="clExp">Класс эксплуатации</label>
+            <select name="clExp" id="clExp"> 
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            </p>
+            <p>
+            <label for="durLoad"> Длительность нагрузки</label>
+            <select name="duration load" id="durLoad">
+                <option value="1">Постоянная</option>
+                <option value="2">Длительная</option>
+                <option value="3">Среднесрочная</option>
+                <option value="4" disabled>Кратковременная</option>
+                <option value="5" disabled>Мгновенная</option>
+            </select>
+            </p>
+            <p>
+                <label for="clStr">Класс прочности</label>
+                    <select name="class strong" id="clStr">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </p>
+        </fieldset>
     </div>
-    <div class="content">контент так его</div>
-    <div class="foter"></div>
+    <div class="input">
+        <fieldset>
+            <legend>Вводимые данные</legend>
+
+        </fieldset>
+        <fieldset>
+            <legend>Выхлоп</legend>
+            
+        </fieldset>
+    </div>
 </body>
+<script src=""></script>
+
 </html>
